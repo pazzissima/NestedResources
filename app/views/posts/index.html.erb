@@ -1,6 +1,13 @@
-<% @posts.each do |post| %>
+ <!-- <% @posts.each do |post| %>
   <div>
     <div><a href="<%= post_path(post) %>"><%= post.link %></a></div>
     <div><%= post.body %></div>
   </div>
+<% end %> -->
+
+<h1>Posts</h1>
+<% @posts.each do |post| %>
+
+<h2><a href="/posts/<%= post.id%>"<li><%= post.link %></li></a><br><%= post.body %></h2>
+
 <% end %>

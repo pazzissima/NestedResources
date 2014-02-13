@@ -8,6 +8,10 @@ gem 'rails', '4.0.2'
 gem 'pg'
 
 gem 'devise'
+gem 'sidekiq'
+
+# gem ‘unicorn’
+# gem ‘unicorn-rails’, :groups => [:development, :test]
 
 gem 'sass-rails', '~> 4.0.0'
 gem 'uglifier', '>= 1.3.0'
